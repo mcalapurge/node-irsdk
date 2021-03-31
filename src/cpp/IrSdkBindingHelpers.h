@@ -10,7 +10,7 @@ using namespace v8;
 namespace NodeIrSdk
 {
 
-Local<Value> convertTelemetryValueToObject(IRSDKWrapper::TelemetryVar &var, const int &index);
+Local<Value> convertTelemetryValueToObjectDouble(IRSDKWrapper::TelemetryVar &var, const int &index);
 Local<Value> convertTelemetryVarToObject(IRSDKWrapper::TelemetryVar &var);
 void convertVarHeaderToObject(IRSDKWrapper::TelemetryVar &var, Local<Object> &obj);
 

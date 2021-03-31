@@ -5,7 +5,7 @@
 using namespace v8;
 using namespace std;
 
-Local<Value> NodeIrSdk::convertTelemetryValueToObject(IRSDKWrapper::TelemetryVar &var, const int &index)
+Local<Value> NodeIrSdk::convertTelemetryValueToObjectDouble(IRSDKWrapper::TelemetryVar &var, const int &index)
 {
   switch (var.type)
   {
@@ -49,13 +49,13 @@ Local<Value> NodeIrSdk::convertTelemetryVarToObject(IRSDKWrapper::TelemetryVar &
     Local<Array> arr = Nan::New<Array>(var.header->count);
     for (int i = 0; i < var.header->count; ++i)
     {
-      arr->Set(i, convertTelemetryValueToObject(var, i));
+      arr->Set(i, convertTelemetryValueToObjectDouble(var, i));
     }
     return arr;
   }
   else
   {
-    return convertTelemetryValueToObject(var, 0);
+    return convertTelemetryValueToObjectDouble(var, 0);
   }
 }
 
