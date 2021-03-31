@@ -1,4 +1,4 @@
-# node-irsdk
+# node-irsdk-2021
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ukyuuq9004wy9h5b/branch/master?svg=true)](https://ci.appveyor.com/project/apihlaja/node-irsdk/branch/master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/apihlaja/node-irsdk.svg)](https://greenkeeper.io/)
@@ -7,6 +7,8 @@
 [![npm version](https://img.shields.io/npm/v/node-irsdk.svg)](https://www.npmjs.com/package/node-irsdk)
 
 Unofficial [iRacing](http://www.iracing.com/) SDK implementation for Node.js.
+This project is Forked from [node-irsdk](https://github.com/apihlaja/node-irsdk) By Antti Pihlaja
+If [this](https://github.com/apihlaja/node-irsdk/pull/95) pull request is merged. I will take down this project.
 
 **node-irsdk** provides data access (live telemetry and session info) and most of available commands. You can find some usage examples from [utils](https://github.com/apihlaja/node-irsdk/tree/master/utils) directory, and there is some [data samples](https://github.com/apihlaja/node-irsdk/tree/master/sample-data) too.
 

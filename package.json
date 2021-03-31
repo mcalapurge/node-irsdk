@@ -1,7 +1,7 @@
 {
-  "name": "node-irsdk",
-  "version": "2.1.6",
-  "description": "iRacing SDK implementation for Node.js",
+  "name": "node-irsdk-2021",
+  "version": "2.1.71",
+  "description": "iRacing SDK implementation for Node.js. Forked from https://github.com/apihlaja/node-irsdk By Antti Pihlaja",
   "main": "src/node-irsdk.js",
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",
@@ -17,11 +17,11 @@
   "keywords": [
     "iracing"
   ],
-  "author": "Antti Pihlaja",
+  "author": "Alexander Harris",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apihlaja/node-irsdk.git"
+    "url": "https://github.com/mcalapurge/node-irsdk.git"
   },
   "engines": {
     "node": ">=6"
